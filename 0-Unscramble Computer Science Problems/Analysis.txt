@@ -1,0 +1,48 @@
+********* RUN TIME ANALYSIS (Worst-Case Big-O Notation) ************
+
+Task 0:
+	
+	Worst case complexity: O(1)
+	Algorithm:
+		get item from the list: O(1)
+		print results: O(1)
+
+Task 1:
+	
+	Worst case complexity: O(n)
+	Algorithms:
+		each for loop: O(n)
+		get length: O(1)
+		add items in a set: O(1)
+		print results: O(1)
+
+Task 2:
+	
+	Worst case complexity: O(n)
+	Algorithms:
+		for list iteration: O(n)
+		for dictionary iteration: O(n)
+		set item in dictionary: O(1)
+		print results: O(1)
+
+Task 3:
+
+	Worst case complexity: O(n log n)
+	Algorithms:
+		list iteration: O(n)
+		adding item in set: O(1)
+		set iteration: O(n)
+		get length: O(1)
+		print results: O(1)
+		sorted function: O(n log n)
+
+Task 4:
+
+	Worst case complexity: O(n log n)
+	Algorithms:
+		list iteration: O(n)
+		set iteration: O(n)
+		sorted function: O(n log n)
+		set union: (O(len(possible_teles) + len(confirm_teles)))
+		print results: O(1)
+
