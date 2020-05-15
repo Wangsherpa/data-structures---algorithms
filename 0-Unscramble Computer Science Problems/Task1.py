@@ -1,7 +1,10 @@
 """
-Read file into texts and calls.
-It's ok if you don't understand how to read files.
+TASK 1:
+How many different telephone numbers are there in the records? 
+Print a message:
+"There are <count> different telephone numbers in the records."
 """
+
 import csv
 with open('data/texts.csv', 'r') as f:
     reader = csv.reader(f)
@@ -24,9 +27,4 @@ for row in calls:
 num_of_unique_numbers = len(unique_numbers)
 
 print(f"There are {num_of_unique_numbers} different telephone numbers in the records.")
-"""
-TASK 1:
-How many different telephone numbers are there in the records? 
-Print a message:
-"There are <count> different telephone numbers in the records."
-"""
+
